@@ -25,8 +25,18 @@ Leaderboard (Public/Private) : *
 
 PS : Given the time in which the user logs in & out and a list of products and its categories, we have to predict the gender of the user.
 
-Link : https://datahack.analyticsvidhya.com/contest/janatahack-e-commerce-analytics-ml-hackathon/#ProblemStatement
+Link : https://datahack.analyticsvidhya.com/contest/janatahack-e-commerce-analytics-ml-hackathon/
 
 My Approach : I used the data from 'productList' column to capture the frequencies of the different categories a user visits in his/her session, and then used PCA to reduce the dimensionality of the features. Finally, used RandomForest and XGBoost for classification.
+
+Leaderboard (Public/Private) : 101/42
+
+### 4. JanataHack - NLP Hackathon (Hosted in Analytics Vidhya)
+
+PS : Given a user's review about a game and the game's description, we have to predict if the user is recommending the game or not.
+
+Link : https://datahack.analyticsvidhya.com/contest/janatahack-nlp-hackathon/
+
+My Approach : First cleaned the user reviews using general preprocessing NLP techniques like stopwords removal and lemmentization of the words. Then used BERT encoder to extract features from the sentence, but using a simple TF-IDF vectorizer for feature extraction yielded better results.
 
 Leaderboard (Public/Private) : 101/42
