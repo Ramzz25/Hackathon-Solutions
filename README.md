@@ -39,4 +39,4 @@ Link : https://datahack.analyticsvidhya.com/contest/janatahack-nlp-hackathon/
 
 My Approach : First cleaned the user reviews using general preprocessing NLP techniques like stopwords removal and lemmentization of the words. Then used BERT encoder to extract features from the sentence, but using a simple TF-IDF vectorizer for feature extraction yielded better results.
 
-Leaderboard (Public/Private) : 101/42
+Leaderboard (Public/Private) : 111/120
