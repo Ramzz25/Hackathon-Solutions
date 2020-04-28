@@ -39,4 +39,6 @@ Link : https://datahack.analyticsvidhya.com/contest/janatahack-nlp-hackathon/
 
 My Approach : First cleaned the user reviews using general preprocessing NLP techniques like stopwords removal and lemmentization of the words. Then used BERT encoder to extract features from the sentence, but using a simple TF-IDF vectorizer for feature extraction yielded better results.
 
+Edit 1 : Doing Transfer Learning on a pre-trained DistilRoBERTa (light-weight version of facebook's RoBERTa) model showed improved results (F1 score - 0.9). The results can be improved further by using the original RoBERTa model instead of distiled one.
+
 Leaderboard (Public/Private) : 111/120
