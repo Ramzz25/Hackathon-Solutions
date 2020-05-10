@@ -46,3 +46,11 @@ PS : Given electrical consumption for first 23 days of a month, we have to predi
 Link : https://datahack.analyticsvidhya.com/contest/janatahack-time-series-forecasting/
 
 My Approach : Used lagged features of the Target variable as new features and used an ensemble of SVM and kNN.
+
+### 6. JanataHack - HR analytics Hackathon (Hosted in Analytics Vidhya)
+
+PS : Given various features like geography, educational status, we have to predict if a individual would want to pursue a career in the field he has taken a skill development course in.
+
+Link : https://datahack.analyticsvidhya.com/contest/janatahack-hr-analytics
+
+My Approach : Used KNN method to impute missing values and used an ensemble of various boosting algorithms for final prediction.
