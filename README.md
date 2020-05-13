@@ -11,6 +11,8 @@ Link : https://www.kaggle.com/c/astro-analytics-techsoc-iitm/overview
 
 My approach : I have predicted the co-ordinates and velocities of the satellites using KNN (k-nearest neighbours) Regression.
 
+Private LeaderBoard : 13
+Public LeaderBoard : 18
 
 ### 2. Flipr Hackathon 4.0
 
@@ -18,6 +20,8 @@ PS: Given several info. about a person, predict the probability that he will be 
 
 My Approach : I have tried implementing various conventional ML algorithms and Neural Network to predict the probability and then used the best-one (based on MSE) for the final prediction.
 
+Private LeaderBoard : NA
+Public LeaderBoard : NA
 
 ### 3. JanataHack - E-Commerce Analytics ML Hackathon (Hosted in Analytics Vidhya)
 
@@ -27,6 +31,8 @@ Link : https://datahack.analyticsvidhya.com/contest/janatahack-e-commerce-analyt
 
 My Approach : I used the data from 'productList' column to capture the frequencies of the different categories a user visits in his/her session, and then used PCA to reduce the dimensionality of the features. Finally, used RandomForest and XGBoost for classification.
 
+Private LeaderBoard : 42
+Public LeaderBoard : 101
 
 ### 4. JanataHack - NLP Hackathon (Hosted in Analytics Vidhya)
 
@@ -38,6 +44,8 @@ My Approach : First cleaned the user reviews using general preprocessing NLP tec
 
 Edit 1 : Doing Transfer Learning on a pre-trained DistilRoBERTa (light-weight version of facebook's RoBERTa) model showed improved results (F1 score - 0.9). The results can be improved further by using the original RoBERTa model instead of distiled one.
 
+Private LeaderBoard : 120
+Public LeaderBoard : 111
 
 ### 5. JanataHack - Time Series Forecasting Hackathon (Hosted in Analytics Vidhya)
 
@@ -47,6 +55,9 @@ Link : https://datahack.analyticsvidhya.com/contest/janatahack-time-series-forec
 
 My Approach : Used lagged features of the Target variable as new features and used an ensemble of SVM and kNN.
 
+Private LeaderBoard : 121
+Public LeaderBoard : 1
+
 ### 6. JanataHack - HR analytics Hackathon (Hosted in Analytics Vidhya)
 
 PS : Given various features like geography, educational status, we have to predict if a individual would want to pursue a career in the field he has taken a skill development course in.
@@ -54,3 +65,6 @@ PS : Given various features like geography, educational status, we have to predi
 Link : https://datahack.analyticsvidhya.com/contest/janatahack-hr-analytics
 
 My Approach : Used KNN method to impute missing values and used an ensemble of various boosting algorithms for final prediction.
+
+Private LeaderBoard : 26 
+Public LeaderBoard : 34
