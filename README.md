@@ -68,3 +68,14 @@ My Approach : Used KNN method to impute missing values and used an ensemble of v
 
 Private LeaderBoard : 26 <br>
 Public LeaderBoard : 34
+
+### 7. JanataHack - Mobility analytics Hackathon (Hosted in Analytics Vidhya)
+
+PS : Given various features about a cab customer, we have to classify him into 3 categories.
+
+Link : https://datahack.analyticsvidhya.com/contest/janatahack-mobility-analytics/
+
+My Approach : Used Iterative method to impute missing numerical values and used an Voting Classifier of 3 boosting algorithms for final prediction.
+
+Private LeaderBoard : 21 <br>
+Public LeaderBoard : 41
